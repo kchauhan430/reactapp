@@ -1,7 +1,9 @@
-function Math(){
-    return(
-        <h1>This is my firs component</h1>
+function msg() {
+    return (
+      <>
+        <h1>Who lives in my Kichen?</h1>
+      </>
     );
-}
+  }
 
-export default Math;
+export default msg;

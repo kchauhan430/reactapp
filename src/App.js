@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Math from './Mathcomponent.js';
+import Mathuuuu from './Mathcomponent.js';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Welcome to my first ReactJS app</h1>
-        <Math />
+        <Mathuuuu />
       </header>
     </div>
   );
