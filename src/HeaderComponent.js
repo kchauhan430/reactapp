@@ -1,9 +1,9 @@
 function header(){
     return(
         <header className="App-header">
-        <h3>ReactJS app</h3>
+        <h2>ReactJS app</h2>
         <nav>
-            <ul>
+            <ul className="navigation">
                 <li>
                     <a href="#">Home</a>
                 </li>

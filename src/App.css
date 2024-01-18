@@ -8,10 +8,24 @@
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Playfair Display';
+  font-family: 'PlayfairDisplay-Regular';
 }
-p, a{
-font-family: 'quicksand';
+p, a, ul{
+  font-family: 'Barlow';
+}
+nav {
+  width: 80%;
+}
+ul.navigation {
+  list-style: none;
+}
+ul.navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+ul.navigation {
+  display: flex;
+  justify-content: space-evenly;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -22,7 +36,7 @@ font-family: 'quicksand';
 .App-header {
   background-color: #282c34;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
