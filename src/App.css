@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5, h6{
 p, a, ul{
   font-family: 'Barlow';
 }
+.main-content {
+  min-height: 440px;
+}
 nav {
   width: 80%;
 }
@@ -26,6 +29,10 @@ ul.navigation a {
 ul.navigation {
   display: flex;
   justify-content: space-evenly;
+}
+footer.App-footer {
+  background: #eee;
+  padding: 1px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
