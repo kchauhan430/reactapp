@@ -8,6 +8,12 @@ function header(){
                     <a href="#">Home</a>
                 </li>
                 <li>
+                    <a href="#">Courses</a>
+                </li>
+                <li>
+                    <a href="#">Sevices</a>
+                </li>
+                <li>
                     <a href="#">About</a>
                 </li>
                 <li>
