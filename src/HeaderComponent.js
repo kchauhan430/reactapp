@@ -1,3 +1,8 @@
+function call(){
+    return(
+        alert("You are calling...")
+    )
+}
 function header(){
     return(
         <header className="App-header">
@@ -21,6 +26,7 @@ function header(){
                 </li>
             </ul>
         </nav>
+        <button onClick={call}>Call Here</button>
         </header>
     );
 }

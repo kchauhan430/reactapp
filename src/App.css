@@ -6,12 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
-
 h1, h2, h3, h4, h5, h6{
   font-family: 'PlayfairDisplay-Regular';
 }
-p, a, ul{
+p, a, ul, button{
   font-family: 'Barlow';
+}
+button{
+  background: #FF5000;
+    border: 0;
+    color: #fff;
+    padding: 9px 17px;
+    border-radius: 2px;
 }
 .main-content {
   min-height: 440px;
