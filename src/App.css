@@ -21,7 +21,6 @@ button{
   cursor:pointer;
 }
 .phone a, .email a, .social-links .fa:before  {
-  color: #646464;
   text-decoration: none;
 }
 .top-bar ul li {
@@ -43,25 +42,11 @@ ul.social-links {
 nav {
   width: 80%;
 }
-ul.navigation {
-  list-style: none;
-}
-ul.navigation a {
-  text-decoration: none;
-  color: #fff;
-}
-ul.navigation {
-  display: flex;
-  justify-content: space-evenly;
-}
 .sitelink{
   color: #fff;
   text-decoration: none;
 }
-footer.App-footer {
-  background: #eee;
-  padding: 1px;
-}
+
 @media (min-width: 991px) {
   .container {
     max-width: 1140px;
