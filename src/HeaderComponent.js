@@ -8,24 +8,24 @@ function header(){
         <header className="App-header">
             <div className="top-bar"> {/* top bar */} 
                 <div className="col-50">  {/* top bar left */} 
-                    <div className="col-50">
-                        <div className="phone">                        
-                            <a href="tel:9851108896">
-                            <i class="fa fa-phone" aria-hidden="true"></i> 9851108896</a>
-                        </div>
-                    </div>
-                    <div className="col-50">
-                    <div className="email">                        
-                        <a href="mailto:youremail@waituk.com">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i> youremail@waituk.com</a>
-                    </div>
-                    </div>
+                    <ul className="contacts">
+                        <li className="phone">                        
+                         <a href="tel:9851108896">
+                        < i className="fa fa-phone" aria-hidden="true"></i> 9851108896</a>
+                        </li>
+                        <li className="email">                        
+                         <a href="mailto:youremail@waituk.com">
+                         <i className="fa fa-envelope-o" aria-hidden="true"></i> youremail@waituk.com</a>
+                        </li>
+                    </ul>
                 </div> {/* end top bar left */} 
                 <div className="col-50"> {/* top bar right */} 
-                    <div className="col-50">
-                    </div>
-                    <div className="col-50">
-                    </div>
+                    <ul className="social-links">
+                    <li><i className="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i className="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i className="fa fa-google-plus" aria-hidden="true"></i></li>
+                    <li><i className="fa fa-linkedin" aria-hidden="true"></i></li>
+                    </ul>
                 </div>{/* end top bar right */} 
             </div>  {/* top bar */} 
             <a href="http://localhost:3000" className="sitelink"><h2>ReactJS app</h2></a>

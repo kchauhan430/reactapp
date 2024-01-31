@@ -20,9 +20,18 @@ button{
   border-radius: 2px;
   cursor:pointer;
 }
-.phone a, .email a  {
+.phone a, .email a, .social-links .fa:before  {
   color: #646464;
   text-decoration: none;
+}
+.top-bar ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  padding: 0 10px;
+}
+ul.contacts {
+  text-align: left;
 }
 .main-content {
   min-height: 440px;
@@ -48,6 +57,13 @@ ul.navigation {
 footer.App-footer {
   background: #eee;
   padding: 1px;
+}
+@media (min-width: 991px) {
+  .col-50 {
+    display: inline-block;
+    width: 48%;
+    flex-wrap: nowrap;
+  }
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
