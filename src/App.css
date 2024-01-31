@@ -31,7 +31,11 @@ button{
   padding: 0 10px;
 }
 ul.contacts {
+  padding-left: 0;
   text-align: left;
+}
+ul.social-links {
+  text-align: right;
 }
 .main-content {
   min-height: 440px;
@@ -59,6 +63,11 @@ footer.App-footer {
   padding: 1px;
 }
 @media (min-width: 991px) {
+  .container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .col-50 {
     display: inline-block;
     width: 48%;
@@ -70,8 +79,8 @@ footer.App-footer {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-/*
-.App-header {
+
+.nav-header {
   background-color: #282c34;
   display: flex;
   flex-direction: row;
@@ -80,7 +89,7 @@ footer.App-footer {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-*/
+
 .App-link {
   color: #61dafb;
 }
