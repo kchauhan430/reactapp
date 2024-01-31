@@ -14,10 +14,15 @@ p, a, ul, button{
 }
 button{
   background: #FF5000;
-    border: 0;
-    color: #fff;
-    padding: 9px 17px;
-    border-radius: 2px;
+  border: 0;
+  color: #fff;
+  padding: 9px 17px;
+  border-radius: 2px;
+  cursor:pointer;
+}
+.phone a, .email a  {
+  color: #646464;
+  text-decoration: none;
 }
 .main-content {
   min-height: 440px;
@@ -36,6 +41,10 @@ ul.navigation {
   display: flex;
   justify-content: space-evenly;
 }
+.sitelink{
+  color: #fff;
+  text-decoration: none;
+}
 footer.App-footer {
   background: #eee;
   padding: 1px;
@@ -45,7 +54,7 @@ footer.App-footer {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/*
 .App-header {
   background-color: #282c34;
   display: flex;
@@ -55,7 +64,7 @@ footer.App-footer {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+*/
 .App-link {
   color: #61dafb;
 }
