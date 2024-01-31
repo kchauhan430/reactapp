@@ -22,7 +22,7 @@ button{
 .phone a, .email a, .social-links .fa:before  {
   text-decoration: none;
 }
-.top-bar ul li {
+.social-links li, .contacts li {
   list-style: none;
   display: inline-block;
   text-align: left;
@@ -39,31 +39,39 @@ ul.social-links {
   min-height: 440px;
 }
 nav {
-  width: 80%;
+  width: 70%;
 }
 .sitelink{
   color: #fff;
   text-decoration: none;
 }
-
+.bottom-bar {
+  padding-top: 40px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.nav-header {
-  background-color: #282c34;
+.nav-header, .nav-footer{
+  padding: 0 120px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+.nav-header a{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-header ul{
+  justify-content: flex-end;
+}
+.nav-footer a{
+  color: #646464;
+}
+.nav-footer ul{
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
