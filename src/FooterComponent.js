@@ -1,7 +1,7 @@
 function footer(){
     return(
-        <footer className="App-footer">
-            <p>Copyright@2024 ReactJS. All rights reserved.</p>
+        <footer id="section" className="App-footer"> 
+            <div className="bottom-bar">Copyright@2024 ReactJS. All rights reserved.</div>
         </footer>
     );
 } 
