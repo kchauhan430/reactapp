@@ -8,24 +8,6 @@
 body{
   font-family: 'Barlow';
 }
-h1{
-  font-size: 110px;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 20px;
-}
-button{
-  background: #FF5000;
-  border: 0;
-  color: #fff;
-  padding: 9px 17px;
-  border-radius: 2px;
-  cursor:pointer;
-}
-button:hover{
-  background: #fff;
-  color: #FF5000;
-}
 .phone a, .email a, .social-links .fa:before  {
   text-decoration: none;
 }

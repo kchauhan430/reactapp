@@ -55,7 +55,7 @@ function header(){
                             </li>
                         </ul>
                     </nav>
-                    <button onClick={call}>Call Here</button>
+                    <button onClick={call} className='sm'>Call Here</button>
                 </div>
         </header>
     );
