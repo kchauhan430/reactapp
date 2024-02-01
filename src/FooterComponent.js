@@ -1,4 +1,4 @@
-import logodark from './logodark.png';
+import logodark from './images/logodark.png';
 
 function footer(){
     return(

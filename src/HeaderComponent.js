@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './images/logo.png';
 function call(){
     return(
         alert("You are calling...")
