@@ -1,19 +1,11 @@
 //var a = 20;
-import big10 from './images/big-10.jpg';
 function maincontent(){
-    const herobg = {
-        backgroundImage:`url(${big10})`,
-        marginTop: "-90px",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        minHeight:"660px",
-    };
     return(
         <div className="main-content" >
-            <div className='hero' style={herobg}>
+            <div className="hero">
                 <h2 className='subtitle'> INDUSTRIAL. HOMES. ELECTRICAL.</h2>
                 <h1 className='title'>The Builder</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                <p className='white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
                 text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <button className='lg'>Project gallery</button>
             </div>
